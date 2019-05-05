@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:hint="Nombre"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="3dp" />
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:hint="Id"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <EditText
+        android:id="@+id/edad1"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:hint="Edad"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <EditText
+        android:id="@+id/edad2"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:hint="Edad"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <CheckBox
+        android:id="@+id/genereMasculi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masculi"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <CheckBox
+        android:id="@+id/genereFemeni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Femeni"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/añadir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Añadir"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/mostrar"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:hint="Mostrar"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/modificar"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:hint="Modificar"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:hint="Eliminar"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="341dp" />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/mostrarResultados"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+
+</LinearLayout>
